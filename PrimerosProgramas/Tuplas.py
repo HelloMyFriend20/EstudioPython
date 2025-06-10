@@ -1,5 +1,5 @@
 #Son listas inmutables, no se pueden modificar
-#No permiten busquedas (no index) pero si comprobar si un elemento se encuentra en la tupla
+#Permiten busquedas con el metodo index.
 #Utilidades: Mas rapidas, usan menos espacio (mas optimizadas)
 #Sintaxis: nombreTupla=(elem1,elem2,elem3,...)
 
