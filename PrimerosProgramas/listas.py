@@ -1,8 +1,6 @@
 #Las listas nos permiten almacenar en la memoria del ordenador varios valores
 #Son estructuras muy utilizadas
-
-#sintaxis de una lista
-# nombreLista = [elem1,elem2,elem3,...]
+#sintaxis de una lista: nombreLista = [elem1,elem2,elem3,...]
 
 #Ejercicios
 milista = ['Maria','Pepe','Martha','Antonio']
@@ -24,11 +22,14 @@ milista.insert(2,'Martin')
 print(f'Lista con un item agregado en la posicion 2: {milista}')
 
 #Agregar varios items a la lista
-milista2 = []
-milista2.extend(['Sofia','Andres'])
+milista.extend(["Sandra","Ana","Lucía","Maria"])
+print(f'Lista con elementos extendidos: {milista[:]}')
 
-lista_definitiva = milista.append(milista2)
-print(lista_definitiva)
+#Muestra la posicion de un atributo en la lista
+#Mostrara la primera vez que se ve ese atributo, en orden de 0 a N.
+print(f'Imprime el indice de "Antonio" {milista.index("Antonio")}')
 
-print(milista)
+#Busqueda en lista usando el elemento "in"
+print(f'Imprime True o False en caso de hallar o no el atributo: {("Pepe" in milista)}')
+print(f'Imprimira False: {("Pedrito" in milista)}')
 print(f'Esto es una lista: {type(milista)} Gracias')
