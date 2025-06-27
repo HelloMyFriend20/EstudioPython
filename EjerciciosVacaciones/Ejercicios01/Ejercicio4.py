@@ -6,4 +6,4 @@ correo = input("Ingresa tu correo: ")
 if "@" in correo and "." in correo:
     print(f'Tu correo es correcto')
 else:
-    print(f'Soy una mierda')
+    print(f'Correo incorrecto')

@@ -1,5 +1,4 @@
 #Bucle for usando el tipo de dato Range, recorriendo strings y notaciones especiales con print.
-
 for i in 'Juan','Carlos',3:
     print(i, end=" ")
 print("\n")

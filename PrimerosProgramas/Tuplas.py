@@ -1,4 +1,4 @@
-#Son listas inmutables, no se pueden modificar
+ #Son listas inmutables, no se pueden modificar
 #Permiten busquedas con el metodo index.
 #Utilidades: Mas rapidas, usan menos espacio (mas optimizadas)
 #Sintaxis: nombreTupla=(elem1,elem2,elem3,...)
