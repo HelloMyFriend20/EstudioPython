@@ -1,4 +1,4 @@
-#Captura de varias excepciones y la clausuka finally
+#Captura de varias excepciones y la clausuka finally (excepciones2)
 def suma(num1,num2):
     return num1 + num2
 def resta(num1,num2):
