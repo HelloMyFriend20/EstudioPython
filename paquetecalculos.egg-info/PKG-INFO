@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: paquetecalculos
+Version: 1.0
+Summary: Paquete de redondeo y potencia
+Home-page: https://github.com/HelloMyFriend20/EstudioPython
+Author: Martin
+Author-email: maferaro2018@gmail.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: summary

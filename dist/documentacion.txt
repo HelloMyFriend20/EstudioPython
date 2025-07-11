@@ -1,0 +1,25 @@
+El proposito de este archivo es explicar el origen de la carpeta dist y paquetecalculos.egg-info con sus respectivos archivos, los cuales fueron creados en conjunto con el archivo setup.py en el capitulo 36
+
+dist:
+paquetecalculos-1.0.tar.gz
+Es el archivo que suele enviarse cuando queremos mandar nuestro paquete distribuible
+La creacion de este archivo viene del archivo setup.py
+Haciendo uso del comando "python setup.py sdist" y buscando la ubicacion del archivo por medio de los comandos ls y cd en el terminal
+
+Notas adicionales
+Se soluciono el error con la importacion de la libreria setuptools con el uso del siguiente comando:
+"pip install setuptools" y aplicando la instalacion con el siguiente comando "python.exe -m pip install --upgrade pip
+
+
+PARA INSTALAR EL MODULO
+En consola ir al directorio creado (dist)
+Usamos el siguiente comando "pip3 install .\paquetecalculos-1.0.tar.gz"
+
+El proposito de los paquetes distribuibles es para usar paquetes sin importar donde se halle su ubicacion
+No es necesario especificar una ruta para usar esto como hemos visto anteriormente.
+
+
+COMO DESINSTALAR UN PAQUETE
+Desde nuestra consola sin importar el directorio donde nos encontremos, ejecutamos el siguiente comando:
+"pip3 uninstall .\paquetecalculos-1.0.tar.gz"
+Se nos pedira una verificacion y si todo sale bien se nos notificara que el paquete se ha desinstalado exitosamente.
