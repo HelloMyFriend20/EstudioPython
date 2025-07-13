@@ -21,7 +21,7 @@ archivo_texto.write(frase) #Esto agregará lo que contiene frase al archivo.txt
 archivo_texto.close() #Después de manipular el archivo hay que cerrarlo.
 #Al decir cerrar nos referimos a cerrar el archivo en memoria que hemos ejecutado desde python.
 
-archivo_texto = open ("archivo.txt","r")
+archivo_texto = open("archivo.txt","r")
 texto = archivo_texto.read() #Leera lo hay dentro del archivo y lo almacené en la variable
 archivo_texto.close()
 print(texto) #Nos mostrará lo que hay en el archivo de texto guardado en la variable.
